@@ -1,0 +1,15 @@
+/**
+ * CSS module for Lesson Objectives component
+ */
+
+.objectives {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+@media screen and (max-width: 996px) {
+  .objectives {
+    padding: 2rem 0;
+  }
+}

@@ -1,0 +1,170 @@
+/**
+ * Custom CSS for Physical AI & Humanoid Robotics Course
+ * This file provides additional styling for the course documentation
+ */
+
+/* Custom colors for the course theme */
+:root {
+  --ifm-color-primary: #b09e00;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #b85c00;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #410221;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+}
+
+/* Enhance code blocks for technical content */
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Style for lesson objectives and learning outcomes */
+.lesson-objectives {
+  background-color: var(--ifm-color-emphasis-100);
+  border-left: 4px solid var(--ifm-color-primary);
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.lesson-objectives h3 {
+  margin-top: 0;
+  color: var(--ifm-color-primary);
+}
+
+/* Style for callout boxes for important information */
+.callout-important {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.callout-important h4 {
+  color: #dc2626;
+  margin-top: 0;
+}
+
+html[data-theme='dark'] .callout-important {
+  background-color: #3e2929;
+  border-color: #7f1d1d;
+}
+
+.callout-important html[data-theme='dark'] h4 {
+  color: #fca5a5;
+}
+
+/* Style for technical diagrams and code examples */
+.technical-content {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+/* Special styling for URDF and ROS-related content */
+.urdf-code, .ros-content {
+  font-family: var(--ifm-font-family-monospace);
+  background-color: var(--ifm-color-emphasis-100);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  overflow-x: auto;
+}
+
+/* Style for definition lists used in glossary */
+.definition-term {
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+}
+
+.definition-explanation {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--ifm-color-emphasis-300);
+}
+
+/* Custom styling for navigation sidebar */
+.menu__list-item-collapsible > .menu__link--sublist {
+  font-weight: 600;
+}
+
+/* Styling for API reference tables */
+.api-table th {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.api-table td {
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  vertical-align: top;
+  padding: 0.5rem;
+}
+
+/* Styling for exercise and assignment sections */
+.exercise-box {
+  border: 2px dashed var(--ifm-color-primary-lighter);
+  background-color: rgba(59, 130, 246, 0.05);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.exercise-box h4 {
+  color: var(--ifm-color-primary);
+  margin-top: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+  .technical-content {
+    padding: 1rem;
+  }
+  
+  .exercise-box, .lesson-objectives, .callout-important {
+    padding: 0.75rem;
+  }
+}
+
+/* Additional styling for accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Custom styling for buttons */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
+/* Style for accessibility compliance indicators */
+.accessibility-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #22c55e;
+  color: white;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
