@@ -18,7 +18,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Getting Started',
-      items: ['intro', 'why-physical-ai-matters', 'learning-outcomes', 'weekly-breakdown', 'assessments'],
+      items: ['intro'],
       link: {
         type: 'generated-index',
       },
@@ -92,7 +92,6 @@ const sidebars: SidebarsConfig = {
         type: 'generated-index',
       },
     },
-    'glossary',
   ],
 };
 
