@@ -41,20 +41,20 @@ const config: Config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
 
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // blog: {
+        //   showReadingTime: true,
+        //   feedOptions: {
+        //     type: ['rss', 'atom'],
+        //     xslt: true,
+        //   },
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
 
-          // keeps helpful warnings
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        //   // keeps helpful warnings
+        //   onInlineTags: 'warn',
+        //   onInlineAuthors: 'warn',
+        //   onUntruncatedBlogPosts: 'warn',
+        // },
 
         theme: {
           customCss: './src/css/custom.css',
@@ -83,7 +83,7 @@ const config: Config = {
           position: 'left',
           label: 'Course Book',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        // { to: '/blog', label: 'Blog', position: 'left' },
         {
           type: 'localeDropdown',
           position: 'right',
@@ -124,7 +124,7 @@ const config: Config = {
             { label: 'Discord', href: 'https://discordapp.com/invite/physical-ai' },
             { label: 'X', href: 'https://x.com/physical_ai' },
             { label: 'GitHub', href: 'https://github.com/physical-ai/physical-ai-robotics-course' },
-            { label: 'Blog', to: '/blog' },
+            // { label: 'Blog', to: '/blog' },
           ],
         },
         
