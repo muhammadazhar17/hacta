@@ -108,16 +108,16 @@ const config: Config = {
             { label: 'Module 4: Vision-Language-Action', to: '/docs/module-4-vision-language-action/overview' },
           ],
         },
-        {
-          title: 'Essential Resources',
-          items: [
-            { label: 'Course Introduction', to: '/docs/intro' },
-            { label: 'Learning Outcomes', to: '/docs/learning-outcomes' },
-            { label: 'Hardware Requirements', to: '/docs/hardware-requirements/digital-twin-workstation' },
-            { label: 'Weekly Breakdown', to: '/docs/weekly-breakdown' },
-            { label: 'Assessments', to: '/docs/assessments' },
-          ],
-        },
+        // {
+        //   title: 'Essential Resources',
+        //   items: [
+        //     { label: 'Course Introduction', to: '/docs/intro' },
+        //     { label: 'Learning Outcomes', to: '/docs/learning-outcomes' },
+        //     { label: 'Hardware Requirements', to: '/docs/hardware-requirements/digital-twin-workstation' },
+        //     { label: 'Weekly Breakdown', to: '/docs/weekly-breakdown' },
+        //     { label: 'Assessments', to: '/docs/assessments' },
+        //   ],
+        // },
         {
           title: 'Community',
           items: [
