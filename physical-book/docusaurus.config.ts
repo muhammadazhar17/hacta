@@ -40,21 +40,21 @@ const config: Config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-
+        {
         // blog: {
         //   showReadingTime: true,
         //   feedOptions: {
         //     type: ['rss', 'atom'],
         //     xslt: true,
         //   },
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
 
-        //   // keeps helpful warnings
-        //   onInlineTags: 'warn',
-        //   onInlineAuthors: 'warn',
-        //   onUntruncatedBlogPosts: 'warn',
-        // },
+          // keeps helpful warnings
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
+        },
 
         theme: {
           customCss: './src/css/custom.css',
